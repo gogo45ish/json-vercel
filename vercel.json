@@ -2,7 +2,13 @@
   "functions": {
     "api/server.js": {
       "memory": 1024,
-      "includeFiles": "db.json"
+      "includeFiles": "db.json",
+      "cors": {
+        "credentials": true,
+        "methods": ["GET", "OPTIONS", "POST"],
+        "origins": ["*"],
+        "headers": ["Content-Type", "Authorization"]
+      }
     }
   },
   "rewrites": [
@@ -12,3 +18,4 @@
     }
   ]
 }
+
