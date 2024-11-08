@@ -14,36 +14,22 @@
 Выполните следующие шаги для начала работы:
 
 1.  **Клонируйте репозиторий:**
-    
-    bash
-    
-    Copy code
-    
+   
     `git clone https://github.com/gogo45ish/json-vercel.git
     cd json-vercel` 
     
-2.  **Установите зависимости:**
+3.  **Установите зависимости:**
     
-    bash
-    
-    Copy code
-    
+
     `yarn install` 
     
     > **Примечание**: Если у вас не установлен Yarn, вы можете установить его с помощью:
     > 
-    > bash
-    > 
-    > Copy code
-    > 
     > `npm install -g yarn` 
     
-3.  **Запустите JSON сервер:**
+4.  **Запустите JSON сервер:**
     
-    bash
-    
-    Copy code
-    
+
     `yarn start` 
     
     Это запустит JSON сервер по умолчанию на http://localhost:3000. Вы можете изменить порт или другие настройки в файле конфигурации `server.js`.
@@ -59,11 +45,8 @@
 
 Пример содержимого `db.json`:
 
-json
 
-Copy code
-
-`{
+```json {
   "users": [
     { "id": "1", "username": "user1", "password": "password1", "isAuthenticated": false },
     { "id": "2", "username": "user2", "password": "password2", "isAuthenticated": false },
@@ -75,7 +58,7 @@ Copy code
     { "name": "FIRST PROJECT", "createdAt": "2024-11-06T14:29:41.730Z", "userId": 3, "completedTasks": 1, "id": "5" }
   ],
   "tasks": []
-}` 
+} ```
 
 Скрипты
 -------
