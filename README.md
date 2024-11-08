@@ -45,8 +45,8 @@
 
 Пример содержимого `db.json`:
 
-
-`json {
+```json
+ {
   "users": [
     { "id": "1", "username": "user1", "password": "password1", "isAuthenticated": false },
     { "id": "2", "username": "user2", "password": "password2", "isAuthenticated": false },
@@ -58,7 +58,9 @@
     { "name": "FIRST PROJECT", "createdAt": "2024-11-06T14:29:41.730Z", "userId": 3, "completedTasks": 1, "id": "5" }
   ],
   "tasks": []
-}`
+}
+```
+
 
 Скрипты
 
@@ -67,10 +69,11 @@
 
 Если вы хотите изменить конфигурацию скрипта сервера, вы можете обновить раздел `scripts` в `package.json`:
 
-
-`"scripts": {
+```json
+"scripts": {
   "start": "node api/server.js"
-}`
+}
+```
 
 Доступные эндпоинты
 
