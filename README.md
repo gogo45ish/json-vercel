@@ -46,7 +46,7 @@
 Пример содержимого `db.json`:
 
 
-`json{
+`json {
   "users": [
     { "id": "1", "username": "user1", "password": "password1", "isAuthenticated": false },
     { "id": "2", "username": "user2", "password": "password2", "isAuthenticated": false },
